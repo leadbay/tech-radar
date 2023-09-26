@@ -1,9 +1,9 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
+At [Leadbay](https://github.com/leadbay), we maintain a [public Tech
+Radar](https://github.com/leadbay/tech-radar) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
-by ThoughtWorks](https://www.thoughtworks.com/radar).
+by ThoughtWorks](https://www.thoughtworks.com/radar) and inspired by [Zalando Tech Radar](http://zalando.github.io/tech-radar/).
 
 This repository contains the code to generate the visualization:
 [`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
@@ -99,7 +99,7 @@ http://localhost:3000/
 ```
 The MIT License (MIT)
 
-Copyright (c) 2017-2022 Zalando SE
+Copyright (c) 2023 Leadbay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
