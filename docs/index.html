@@ -32,8 +32,8 @@ radar_visualization({
   quadrants: [
     { name: "Languages" },
     { name: "Infrastructure" },
-    { name: "Datastores" },
-    { name: "Data Management and Front" },
+    { name: "Data Storage and Management" },
+    { name: "Frameworks and Libraries" },
   ],
   rings: [
     { name: "ADOPT", color: "#5ba300" },
@@ -47,19 +47,19 @@ radar_visualization({
   //ENTRIES
   entries: [
       {
-        "quadrant": 3,
+        "quadrant": 2,
         "ring": 2,
         "label": "Google BigQuery",
         "moved": 0
       },
       {
-        "quadrant": 3,
+        "quadrant": 2,
         "ring": 2,
         "label": "Hadoop",
         "moved": 0
       },
       {
-        "quadrant": 3,
+        "quadrant": 2,
         "ring": 2,
         "label": "Spark",
         "moved": 0
@@ -89,7 +89,7 @@ radar_visualization({
         "moved": 0
       },
       {
-        "quadrant": 3,
+        "quadrant": 2,
         "ring": 2,
         "label": "Algolia",
         "moved": 0
@@ -150,7 +150,7 @@ radar_visualization({
         "moved": 0
       },
       {
-        "quadrant": 3,
+        "quadrant": 2,
         "ring": 2,
         "label": "Kafka",
         "moved": 0
@@ -158,16 +158,28 @@ radar_visualization({
       {
         "quadrant": 1,
         "ring": 0,
-        "label": "Azure Cloud",
+        "label": "Azure App Service",
         "moved": 0
       },
-    {
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure Container Apps",
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Azure Container Inst.",
+        "moved": 0
+      },
+      {
         "quadrant": 1,
         "ring": 1,
         "label": "Vercel",
         "moved": 0
       },
-    {
+      {
         "quadrant": 1,
         "ring": 3,
         "label": "Netlify",
@@ -210,11 +222,35 @@ radar_visualization({
         "moved": 0
       },
       {
-        "quadrant": 2,
+        "quadrant": 1,
         "ring": 2,
-        "label": "Redis",
+        "label": "Redis Pub/Sub",
         "moved": 0
-      }
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Azure Service Bus",
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Ktor",
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Exposed",
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure Blob Storage",
+        "moved": 0
+      },
     ]
   //ENTRIES
 });
